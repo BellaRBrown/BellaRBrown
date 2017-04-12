@@ -7,8 +7,17 @@ body {
 a {
     color: rgb(0, 0, 0);
 }
+img {
+  box-shadow: 8px 8px 10px rgb(170, 170, 170);
+  border: 0.625em double rgb(81, 224, 250);
+  border-radius: 100%;
+}
 h1 {
-    font-size: 2.5em;
+    font-size: 3.25em;
+	color: rgb(81, 224, 250);
+}
+p {
+	font-size: 1.15em;
 }
 h2 {
     color: rgb(81, 224, 250);
@@ -34,7 +43,7 @@ h2 {
 }
 li a {
     display: block;
-    color: #000;
+    color: rgb(0, 0, 0);
     padding: 0.5em 1em;
     text-decoration: none;
     font-size: 1.25em;
@@ -49,7 +58,7 @@ th {
     color: rgb(255, 255, 255);
 }
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid rgb(81, 224, 250);
     text-align: left;
     padding: 0.5em;
 }
@@ -59,7 +68,7 @@ cite {
 .hover:hover {
     background-color: rgb(81, 224, 250);
     background-color: rgba(81, 224, 250, 0.5);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .contentbox {
     margin: 1em;
@@ -88,7 +97,6 @@ cite {
     font-size: 0.875em;
     font-style: italic;
     line-height: 0.875em;
-    /* This is 14px, em is supported by more browsers and will display the same across them. To convert from pixel to em divide the pixel by 16. 14px/16 = 0.875em */
     margin-left: 1.25em;
     padding: 0.625em;
     position: relative;
@@ -105,4 +113,8 @@ cite {
 .footer {
     padding: 1em;
     margin: 1em;
+}
+iframe {
+	height: 80%; 
+	width: 80%;
 }
