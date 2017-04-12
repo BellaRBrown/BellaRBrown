@@ -1,73 +1,83 @@
 * {
-	font-family: 'Josefin Sans', sans-serif;
+    font-family:'Josefin Sans', sans-serif;
 }
-
 body {
-	background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
-
+a {
+    color: rgb(0, 0, 0);
+}
+h1 {
+    font-size: 2.5em;
+}
 h2 {
-	color: rgb(81, 224, 250);
+    color: rgb(81, 224, 250);
+    font-size: 1.75em;
 }
-
 .title {
-	font-family: 'Coustard', sans-serif;
-	font-size: 3.25em;
-	color: rgb(81, 224, 250);
+    font-family:'Coustard', sans-serif;
+    font-size: 3.25em;
+    color: rgb(81, 224, 250);
 }
-
 .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 25%;
-	background-color: rgb(242, 242, 242);
+    background-color: rgb(242, 242, 242);
     background-color: rgba(242, 242, 242, 1);
     height: 100%;
     position: fixed;
-	left: 0;
-	top: 0;
+    left: 0;
+    top: 0;
     overflow: auto;
 }
-
 li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 0.5em 1em;
     text-decoration: none;
-	font-size: 1.25em;
+    font-size: 1.25em;
 }
-
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: rgba(81, 224, 250, 0.6);
+    color: rgb(255, 255, 255);
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 0.5em;
+}
 cite {
-	font-style: italic;
+    font-style: italic;
 }
-
 .hover:hover {
     background-color: rgb(81, 224, 250);
     background-color: rgba(81, 224, 250, 0.5);
     color: white;
 }
-
 .contentbox {
-	margin: 16px;
-	padding: 16px;
-	width: 94%;
-	border-bottom: 2px solid rgb(81, 224, 250);
-	background-color: rgb(242, 242, 242);
-	background-color: rgba(242, 242, 242, 1);
-	right: 0;
-	position: relative;
-	font-size: 1em; 
+    margin: 1em;
+    padding: 1em;
+    width: 94%;
+    border-bottom: 2px solid rgb(81, 224, 250);
+    background-color: rgb(242, 242, 242);
+    background-color: rgba(242, 242, 242, 1);
+    right: 0;
+    position: relative;
+    font-size: 1.15em;
 }
-
 .content {
-	width: 75%;
-	right: 0;
-	height: 100%;
-	position: absolute;
-	font-size: 1em;
+    width: 75%;
+    right: 0;
+    height: 100%;
+    position: absolute;
 }
-
 .caption {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.6);
@@ -77,12 +87,22 @@ cite {
     font-family:'Playfair Display', serif;
     font-size: 0.875em;
     font-style: italic;
-    line-height: 0.875em; /* This is 14px, em is supported by more browsers and will display the same across them. To convert from pixel to em divide the pixel by 16. 14px/16 = 0.875em */
-    margin-left: 1.25em; /* This is a dank meme */
+    line-height: 0.875em;
+    /* This is 14px, em is supported by more browsers and will display the same across them. To convert from pixel to em divide the pixel by 16. 14px/16 = 0.875em */
+    margin-left: 1.25em;
     padding: 0.625em;
     position: relative;
     top: 80%;
     width: 60%;
 }
-
-
+.underline {
+    color: rgb(81, 224, 250);
+}
+.underline h2 {
+    color: rgb(81, 224, 250);
+    font-size: 1.75em;
+}
+.footer {
+    padding: 1em;
+    margin: 1em;
+}
